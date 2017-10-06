@@ -1,6 +1,9 @@
 #!/bin/sh
 
 # Set up the symlinks to vimrc and gvimrc
-ln -sfn ~/.vim/vimrc ~/.vimrc
-ln -sfn ~/.vim/gvimrc ~/.gvimrc
+unlink ~/.vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
+
+unlink ~/.gvimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
 
