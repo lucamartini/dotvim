@@ -2,7 +2,7 @@
 
 [ -e "~/.vim" ] && die "~/.vim already exists."
 
-git clone git://github.com/sole/dotvim.git ~/.vim
+git clone git://github.com/lucamartini/dotvim.git ~/.vim
 
 cd ~/.vim
 
