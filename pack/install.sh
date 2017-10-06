@@ -38,8 +38,10 @@ function package () {
 
 
 # (
-# set_group colorschemes
-# package https://github.com/altercation/vim-colors-solarized.git &
+# set_group syntax
+# package https://github.com/kchmck/vim-coffee-script.git &
+# package https://github.com/tpope/vim-markdown.git &
+# package https://github.com/ap/vim-css-color.git &
 # wait
 # ) &
 
