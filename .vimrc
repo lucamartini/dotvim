@@ -2,6 +2,8 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+language en_US.utf8
+
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
