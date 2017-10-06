@@ -1,5 +1,6 @@
-" color scheme of the moment:
-syntax on
 colorscheme slate
 
 :set guioptions-=T  "remove toolbar
+:set guioptions-=r  "remove right-hand scroll bar
+:set guioptions-=L  "remove left-hand scroll bar
+:set guioptions-=m  "remove menu bar
