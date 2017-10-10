@@ -45,7 +45,15 @@ function package () {
 # wait
 # ) &
 
+(
+  set_group gui 
+  package https://github.com/vim-airline/vim-airline 
+  wait
+) &
+
+
+
 wait
 
 # echo "Plugins that havn't been updated by this script:"
-find */*/*/.git -prune -mtime 0.01
+find */*/*/.git -prune -mtime 0
