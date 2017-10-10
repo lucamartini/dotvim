@@ -45,12 +45,6 @@ function package () {
 # wait
 # ) &
 
-(
- set_group gui 
- package https://github.com/kchmck/vim-coffee-script.git ://github.com/vim-airline/vim-airline
- wait
-) &
-
 wait
 
 # echo "Plugins that havn't been updated by this script:"
