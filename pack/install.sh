@@ -45,6 +45,14 @@ function package () {
 # wait
 # ) &
 
+
+(
+  set_group git
+  package https://github.com/tpope/vim-fugitive.git
+  wait
+) &
+
+
 (
   set_group gui 
   package https://github.com/vim-airline/vim-airline
