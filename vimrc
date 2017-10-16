@@ -42,5 +42,5 @@ set t_vb=
 " Enable use of the mouse for all modes
 set mouse=a
 
-let g:airline_theme='dark'
+let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1

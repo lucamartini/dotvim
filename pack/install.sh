@@ -54,7 +54,7 @@ function package () {
 
 
 (
-  set_group gui 
+  set_group gui
   package https://github.com/vim-airline/vim-airline
   package https://github.com/vim-airline/vim-airline-themes
   wait
