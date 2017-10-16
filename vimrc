@@ -13,8 +13,14 @@ syntax on
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
 
-set showcmd             " display incomplete commands
-set wildmenu            " display completion matches in a status line
+" Search down into subfolders
+" Provides tab-completion for all file-related tasks
+set path+=**
+" display incomplete commands
+set showcmd
+
+" display completion matches in a status line
+set wildmenu
 
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
 " mapping of <C-L> below)
