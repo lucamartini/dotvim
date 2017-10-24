@@ -10,6 +10,9 @@ set backspace=indent,eol,start
 " Switch syntax highlighting on
 syntax on
 
+" line number
+:set number
+
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
 
