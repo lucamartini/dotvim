@@ -2,6 +2,8 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+filetype plugin on " plugins are enabled
+
 language en_US.utf8
 
 " Make backspace behave in a sane manner.
@@ -62,3 +64,5 @@ set ttimeoutlen=0
 
 set history=200
 
+" Go to the next buffer even if the previous buffer is modified
+set hidden
