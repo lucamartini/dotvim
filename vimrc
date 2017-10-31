@@ -29,7 +29,8 @@ set wildmenu
 
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
 " mapping of <C-L> below)
-set hlsearch
+" set hlsearch
+set incsearch
 
 
 " Use case insensitive search, except when using capital letters
