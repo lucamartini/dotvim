@@ -7,3 +7,6 @@ cd ~/.vim
 
 sh install.sh
 
+cd pack
+./install.sh
+
