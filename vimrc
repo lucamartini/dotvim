@@ -43,12 +43,8 @@ set laststatus=2
 " line of a window
 set ruler
 
-" Use visual bell instead of beeping when doing something wrong
+" Use null visual bell 
 set visualbell
-
-" And reset the terminal code for the visual bell. If visualbell is set, and
-" this line is also included, vim will neither flash nor beep. If visualbell
-" is unset, this does nothing.
 set t_vb=
 
 " Enable use of the mouse for all modes
@@ -67,3 +63,6 @@ set history=200
 
 " Go to the next buffer even if the previous buffer is modified
 set hidden
+
+packadd! matchit
+set autoindent
