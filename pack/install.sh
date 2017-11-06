@@ -60,7 +60,11 @@ function package () {
   wait
 ) &
 
-
+(
+  set_group style
+  package https://github.com/editorconfig/editorconfig-vim.git
+  wait
+)
 
 wait
 
