@@ -61,8 +61,15 @@ function package () {
 ) &
 
 (
-  set_group style
+  set_group edit_style
   package https://github.com/editorconfig/editorconfig-vim.git
+  wait
+)
+
+(
+  set_group style
+  package https://github.com/scrooloose/nerdtree.git
+  package https://github.com/Xuyuanp/nerdtree-git-plugin.git
   wait
 )
 
