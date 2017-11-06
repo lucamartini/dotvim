@@ -67,3 +67,6 @@ set hidden
 packadd! matchit
 set autoindent
 
+set encoding=utf8
+set guifont=DroidSansMono\ Nerd\ Font\ 11
+

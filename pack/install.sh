@@ -70,6 +70,7 @@ function package () {
   set_group style
   package https://github.com/scrooloose/nerdtree.git
   package https://github.com/Xuyuanp/nerdtree-git-plugin.git
+  package https://github.com/ryanoasis/vim-devicons
   wait
 )
 
