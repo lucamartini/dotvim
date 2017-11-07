@@ -50,6 +50,7 @@ function package () {
   package https://github.com/vim-airline/vim-airline
   package https://github.com/vim-airline/vim-airline-themes
   package https://github.com/kshenoy/vim-signature
+  package https://github.com/airblade/vim-gitgutter
   wait
 ) &
 
