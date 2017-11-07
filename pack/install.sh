@@ -35,7 +35,7 @@ function package () {
     echo "$expected_repo: Installing..."
     git clone -q "$repo_url"
   fi
-  cd home
+  cd $home
 }
 
 (
