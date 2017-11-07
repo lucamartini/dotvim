@@ -56,7 +56,7 @@ function package () {
   package https://github.com/editorconfig/editorconfig-vim
   package https://github.com/Valloric/YouCompleteMe
   wait
-)
+) &
 
 (
   set_group style
@@ -64,7 +64,7 @@ function package () {
   package https://github.com/Xuyuanp/nerdtree-git-plugin
   package https://github.com/ryanoasis/vim-devicons
   wait
-)
+) &
 
 wait
 
