@@ -48,7 +48,7 @@ function package () {
 
 (
   set_group git
-  package https://github.com/tpope/vim-fugitive.git
+  package https://github.com/tpope/vim-fugitive
   wait
 ) &
 
@@ -62,15 +62,15 @@ function package () {
 
 (
   set_group edit_style
-  package https://github.com/editorconfig/editorconfig-vim.git
+  package https://github.com/editorconfig/editorconfig-vim
   package https://github.com/Valloric/YouCompleteMe
   wait
 )
 
 (
   set_group style
-  package https://github.com/scrooloose/nerdtree.git
-  package https://github.com/Xuyuanp/nerdtree-git-plugin.git
+  package https://github.com/scrooloose/nerdtree
+  package https://github.com/Xuyuanp/nerdtree-git-plugin
   package https://github.com/ryanoasis/vim-devicons
   wait
 )
