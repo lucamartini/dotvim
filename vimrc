@@ -70,12 +70,3 @@ set autoindent
 set encoding=utf8
 set guifont=Inconsolata\ Nerd\ Font\ 11
 
-" syntastic
-execute pathogen#infect()
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
