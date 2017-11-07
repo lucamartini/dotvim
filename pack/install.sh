@@ -63,6 +63,7 @@ function package () {
 (
   set_group edit_style
   package https://github.com/editorconfig/editorconfig-vim.git
+  package https://github.com/vim-syntastic/syntastic.git
   wait
 )
 
