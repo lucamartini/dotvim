@@ -15,8 +15,11 @@ cd ~/.vim/pack
 
 # youcompleteme install
 cd ~/.vim/pack/edit_style/start/YouCompleteMe
-git submodule update --init --recursive
-./install.py --clang-completer --js-completer --system-libclang
+UPDATE=`git submodule update --init --recursive`
+echo $UPDATE
+if [ -n "$UPDATE" ]; then
+    ./install.py --clang-completer --js-completer --system-libclang
+fi
 
 # Set up the symlinks to vimrc and gvimrc
 unlink ~/.vimrc
