@@ -29,6 +29,7 @@ function package () {
   if [ -d "$expected_repo" ]; then
     cd "$expected_repo" || exit
     result=$(git pull --force)
+    echo $expected_repo
     pwd
     echo "$expected_repo: $result"
   else
