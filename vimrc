@@ -70,3 +70,5 @@ set autoindent
 set encoding=utf8
 set guifont=Inconsolata\ Nerd\ Font\ 11
 
+" signature + gitgutter
+let g:SignatureMarkTextHLDynamic = 1
