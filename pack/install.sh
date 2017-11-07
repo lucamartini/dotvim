@@ -24,18 +24,18 @@ function set_group () {
 #   package https://github.com/tpope/vim-endwise.git
 #
 function package () {
+  home=pwd
   repo_url=$1
   expected_repo=$(basename "$repo_url" .git)
   if [ -d "$expected_repo" ]; then
     cd "$expected_repo" || exit
     result=$(git pull --force)
-    echo $expected_repo
-    pwd
     echo "$expected_repo: $result"
   else
     echo "$expected_repo: Installing..."
     git clone -q "$repo_url"
   fi
+  cd home
 }
 
 (
