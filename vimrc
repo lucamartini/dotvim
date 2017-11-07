@@ -71,6 +71,7 @@ set encoding=utf8
 set guifont=Inconsolata\ Nerd\ Font\ 11
 
 " syntastic
+execute pathogen#infect()
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
