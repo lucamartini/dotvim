@@ -24,7 +24,7 @@ function set_group () {
 #   package https://github.com/tpope/vim-endwise.git
 #
 function package () {
-  home=pwd
+  home=$(pwd)
   repo_url=$1
   expected_repo=$(basename "$repo_url" .git)
   if [ -d "$expected_repo" ]; then
