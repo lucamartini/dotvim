@@ -36,16 +36,6 @@ function package () {
   fi
 }
 
-
-# (
-# set_group syntax
-# package https://github.com/kchmck/vim-coffee-script.git &
-# package https://github.com/tpope/vim-markdown.git &
-# package https://github.com/ap/vim-css-color.git &
-# wait
-# ) &
-
-
 (
   set_group git
   package https://github.com/tpope/vim-fugitive
@@ -77,5 +67,3 @@ function package () {
 
 wait
 
-# echo "Plugins that havn't been updated by this script:"
-find */*/*/.git -prune -mtime 0
