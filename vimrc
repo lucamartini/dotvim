@@ -68,7 +68,7 @@ packadd! matchit
 set autoindent
 
 set encoding=utf8
-set guifont=Hack\ 11
+set guifont=Hack\ 9 
 
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
