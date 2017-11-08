@@ -1,6 +1,6 @@
 # vim
 
 require:
-  *libclang
-  *node, npm
-  *https://github.com/ryanoasis/nerd-fonts
+  * libclang
+  * node, npm
+  * https://github.com/ryanoasis/nerd-fonts
