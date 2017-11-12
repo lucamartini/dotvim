@@ -68,6 +68,7 @@ function package () {
   package https://github.com/Xuyuanp/nerdtree-git-plugin
   # package https://github.com/ryanoasis/vim-devicons
   package https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
+  package https://github.com/weynhamz/vim-plugin-minibufexpl.git
   wait
 ) &
 
