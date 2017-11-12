@@ -69,6 +69,9 @@ set autoindent
 
 set encoding=utf8
 set guifont=Knack\ Nerd\ Font\ Mono\ 9 
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
 
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
