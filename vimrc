@@ -68,7 +68,7 @@ packadd! matchit
 set autoindent
 
 set encoding=utf8
-set guifont=Knack Nerd Font Mono\ 9 
+set guifont=Knack\ Nerd\ Font\ Mono\ 9 
 
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
