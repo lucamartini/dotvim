@@ -59,9 +59,10 @@ function package () {
   package https://github.com/editorconfig/editorconfig-vim
   package https://github.com/ternjs/tern_for_vim.git
   package https://github.com/Valloric/YouCompleteMe
-  package https://github.com/vim-syntastic/syntastic.git
-  package https://github.com/mtscout6/syntastic-local-eslint.vim.git
-  package https://github.com/leafgarland/typescript-vim.git
+  # package https://github.com/vim-syntastic/syntastic.git
+  # package https://github.com/mtscout6/syntastic-local-eslint.vim.git
+  package https://github.com/w0rp/ale
+  package https://github.com/leafgarland/typescript-vim
   wait
 ) &
 
@@ -70,8 +71,8 @@ function package () {
   package https://github.com/scrooloose/nerdtree
   package https://github.com/Xuyuanp/nerdtree-git-plugin
   # package https://github.com/ryanoasis/vim-devicons
-  package https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
-  package https://github.com/weynhamz/vim-plugin-minibufexpl.git
+  package https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+  package https://github.com/weynhamz/vim-plugin-minibufexpl
   wait
 ) &
 
