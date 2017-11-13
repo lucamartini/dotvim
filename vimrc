@@ -52,6 +52,8 @@ set mouse=a
 
 let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1
+" Ale syntax check
+let g:airline#extensions#ale#enabled = 1
 
 " cursor shape
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
