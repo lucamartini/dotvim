@@ -57,7 +57,9 @@ function package () {
 (
   set_group edit_style
   package https://github.com/editorconfig/editorconfig-vim
+  package https://github.com/ternjs/tern_for_vim.git
   package https://github.com/Valloric/YouCompleteMe
+  package https://github.com/vim-syntastic/syntastic.git
   package https://github.com/leafgarland/typescript-vim.git
   wait
 ) &
