@@ -32,4 +32,5 @@ ln -s ~/.vim/vimrc ~/.vimrc
 unlink ~/.gvimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
 
-
+unlink ~/.tern-config
+ln -s ~/.vim/tern-config ~/.tern-config 
