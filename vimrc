@@ -67,6 +67,7 @@ set hidden
 packadd! matchit
 set autoindent
 
+"nerdtree
 set encoding=utf8
 set guifont=Knack\ Nerd\ Font\ Mono\ 9 
 let g:NERDTreeFileExtensionHighlightFullName = 1
@@ -79,3 +80,13 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
+
+"syntasic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
