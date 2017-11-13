@@ -82,6 +82,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:SignatureMarkTextHLDynamic = 1
 
 let g:ale_sign_column_always = 1
+let g:ale_set_highlights = 0
 
 " YouCompleteMe
 nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
