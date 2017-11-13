@@ -60,6 +60,7 @@ function package () {
   package https://github.com/ternjs/tern_for_vim.git
   package https://github.com/Valloric/YouCompleteMe
   package https://github.com/vim-syntastic/syntastic.git
+  package https://github.com/mtscout6/syntastic-local-eslint.vim.git
   package https://github.com/leafgarland/typescript-vim.git
   wait
 ) &
