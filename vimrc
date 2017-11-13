@@ -83,6 +83,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
 
+let g:ale_sign_column_always = 1
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
