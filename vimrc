@@ -32,7 +32,6 @@ set wildmenu
 " set hlsearch
 set incsearch
 
-
 " Use case insensitive search, except when using capital letters
 set ignorecase
 set smartcase
@@ -69,7 +68,7 @@ set hidden
 packadd! matchit
 set autoindent
 
-"nerdtree
+" nerdtree
 set encoding=utf8
 set guifont=Knack\ Nerd\ Font\ Mono\ 9 
 let g:NERDTreeFileExtensionHighlightFullName = 1
@@ -83,6 +82,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:SignatureMarkTextHLDynamic = 1
 
 let g:ale_sign_column_always = 1
+
+" YouCompleteMe
+nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 
 " Put these lines at the very end of your vimrc file.
 
