@@ -70,7 +70,7 @@ set autoindent
 
 " nerdtree
 set encoding=utf8
-set guifont=Knack\ Nerd\ Font\ Mono\ 9 
+set guifont=Knack\ Nerd\ Font\ Mono\ 9,\ Knack\ Nerd\ Font\ 9  
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
