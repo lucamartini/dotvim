@@ -2,7 +2,8 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-filetype plugin on " plugins are enabled
+" Enable file type detection and do language-dependent indenting.
+filetype plugin indent on
 
 language en_US.utf8
 
@@ -15,8 +16,7 @@ syntax on
 " line number
 :set number
 
-" Enable file type detection and do language-dependent indenting.
-filetype plugin indent on
+set history=200
 
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
@@ -49,6 +49,7 @@ set t_vb=
 " Enable use of the mouse for all modes
 set mouse=a
 
+" airline
 let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1
 " Ale syntax check
@@ -59,8 +60,6 @@ let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 set ttimeoutlen=0
-
-set history=200
 
 " Go to the next buffer even if the previous buffer is modified
 set hidden
@@ -80,6 +79,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
 
+" ale
 let g:ale_sign_column_always = 1
 let g:ale_set_highlights = 0
 
