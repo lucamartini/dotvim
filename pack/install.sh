@@ -52,6 +52,7 @@ function package () {
   package https://github.com/kshenoy/vim-signature
   package https://github.com/airblade/vim-gitgutter
   package https://github.com/flazz/vim-colorschemes
+  package https://github.com/pangloss/vim-javascript
   wait
 ) &
 
