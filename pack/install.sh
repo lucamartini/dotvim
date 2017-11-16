@@ -59,10 +59,7 @@ function package () {
 (
   set_group edit_style
   package https://github.com/editorconfig/editorconfig-vim
-  # package https://github.com/ternjs/tern_for_vim.git
   package https://github.com/Valloric/YouCompleteMe
-  # package https://github.com/vim-syntastic/syntastic.git
-  # package https://github.com/mtscout6/syntastic-local-eslint.vim.git
   package https://github.com/w0rp/ale
   package https://github.com/leafgarland/typescript-vim
   wait
@@ -75,6 +72,7 @@ function package () {
   # package https://github.com/ryanoasis/vim-devicons
   package https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
   package https://github.com/weynhamz/vim-plugin-minibufexpl
+  package https://github.com/mildred/vim-bufmru
   wait
 ) &
 
