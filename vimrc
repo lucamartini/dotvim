@@ -52,6 +52,7 @@ set mouse=a
 " airline
 let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#whitespace#enabled = 0
 " Ale syntax check
 let g:airline#extensions#ale#enabled = 1
 
