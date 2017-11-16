@@ -1,4 +1,4 @@
-colorscheme slate
+colorscheme Tomorrow-Night
 
 :set guifont=Hack\ 9
 
