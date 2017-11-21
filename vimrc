@@ -50,7 +50,7 @@ set t_vb=
 set mouse=a
 
 " airline
-let g:airline_theme='tomorrow'
+let g:airline_theme='dark'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 0
 " Ale syntax check
