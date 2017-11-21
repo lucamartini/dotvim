@@ -1,4 +1,4 @@
-colorscheme Tomorrow-Night
+colorscheme base16-tomorrow-night
 
 :set guifont=Hack\ 9
 
