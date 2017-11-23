@@ -27,9 +27,9 @@ set showcmd
 " display completion matches in a status line
 set wildmenu
 
-" Highlight searches (use <C-L> to temporarily turn off highlighting; see the
-" mapping of <C-L> below)
-" set hlsearch
+" Highlight searches
+set hlsearch
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 set incsearch
 
 " Use case insensitive search, except when using capital letters
