@@ -89,10 +89,10 @@ nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 
 " bufMRU
 " Alt-B or Alt-Shift-B to navigate buffers in insert mode and normal mode
-imap <A-B> <C-O>:BufMRUPrev<CR>
-imap <A-b> <C-O>:BufMRUNext<CR>
-map <A-B> :BufMRUPrev<CR>
-map <A-b> :BufMRUNext<CR>
+imap <C-S-Tab> <C-O>:BufMRUPrev<CR>
+imap <C-Tab> <C-O>:BufMRUNext<CR>
+map <C-S-Tab> :BufMRUPrev<CR>
+map <C-Tab> :BufMRUNext<CR>
 
 " Put these lines at the very end of your vimrc file.
 
