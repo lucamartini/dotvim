@@ -28,8 +28,8 @@ set showcmd
 set wildmenu
 
 " Highlight searches
-set hlsearch
-nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+" set hlsearch
+" nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 set incsearch
 
 " Use case insensitive search, except when using capital letters
@@ -93,6 +93,19 @@ imap <C-S-Tab> <C-O>:BufMRUPrev<CR>
 imap <C-Tab> <C-O>:BufMRUNext<CR>
 map <C-S-Tab> :BufMRUPrev<CR>
 map <C-Tab> :BufMRUNext<CR>
+
+" closeTag
+" filenames like *.xml, *.html, *.xhtml, ...
+" Then after you press <kbd>&gt;</kbd> in these files, this plugin will try to close the current tag.
+"
+let g:closetag_filenames = '*.html,*.vue'
+" integer value [0|1]
+" This will make the list of non closing tags case sensitive (e.g. `<Link>` will be closed while `<link>` won't.)
+"
+let g:closetag_emptyTags_caseSensitive = 1
+" Add > at current position without closing the current tag, default is ''
+"
+let g:closetag_close_shortcut = '<leader>>'
 
 " Put these lines at the very end of your vimrc file.
 

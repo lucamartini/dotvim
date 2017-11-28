@@ -44,6 +44,12 @@ function package () {
   wait
 ) &
 
+(
+  set_group completion
+  package https://github.com/alvan/vim-closetag 
+  wait
+) &
+
 
 (
   set_group gui
