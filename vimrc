@@ -28,8 +28,10 @@ set showcmd
 set wildmenu
 
 " Highlight searches
-" set hlsearch
-" nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+set hlsearch
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+" Press F5 to toggle highlighting on/off, and show current value.
+:noremap <F5> :set hlsearch! hlsearch?<CR>
 set incsearch
 
 " Use case insensitive search, except when using capital letters
