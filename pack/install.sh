@@ -60,6 +60,7 @@ function package () {
   package https://github.com/flazz/vim-colorschemes
   package https://github.com/pangloss/vim-javascript
   package https://github.com/haya14busa/incsearch.vim
+  package https://github.com/itchyny/vim-cursorword
   wait
 ) &
 
