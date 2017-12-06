@@ -45,6 +45,14 @@ function package () {
 ) &
 
 (
+  set_group tpope
+  package https://github.com/tpope/vim-repeat
+  package https://github.com/tpope/vim-unimpaired
+  package https://github.com/tpope/vim-commentary
+  wait
+) &
+
+(
   set_group completion
   package https://github.com/alvan/vim-closetag 
   wait
