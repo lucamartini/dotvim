@@ -59,6 +59,7 @@ function package () {
   package https://github.com/airblade/vim-gitgutter
   package https://github.com/flazz/vim-colorschemes
   package https://github.com/pangloss/vim-javascript
+  package https://github.com/haya14busa/incsearch.vim
   wait
 ) &
 
