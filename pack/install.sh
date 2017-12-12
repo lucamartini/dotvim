@@ -55,6 +55,7 @@ function package () {
 (
   set_group completion
   package https://github.com/alvan/vim-closetag 
+  package https://github.com/ctrlpvim/ctrlp.vim
   wait
 ) &
 
