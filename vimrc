@@ -119,6 +119,10 @@ let g:closetag_emptyTags_caseSensitive = 1
 "
 let g:closetag_close_shortcut = '<leader>>'
 
+" CtrlP
+" ignore files inside .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
