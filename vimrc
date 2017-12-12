@@ -99,13 +99,6 @@ let g:ale_set_highlights = 0
 " YouCompleteMe
 nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 
-" bufMRU
-" Alt-B or Alt-Shift-B to navigate buffers in insert mode and normal mode
-imap <C-S-Tab> <C-O>:BufMRUPrev<CR>
-imap <C-Tab> <C-O>:BufMRUNext<CR>
-map <C-S-Tab> :BufMRUPrev<CR>
-map <C-Tab> :BufMRUNext<CR>
-
 " closeTag
 " filenames like *.xml, *.html, *.xhtml, ...
 " Then after you press <kbd>&gt;</kbd> in these files, this plugin will try to close the current tag.
