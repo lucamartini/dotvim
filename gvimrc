@@ -1,5 +1,5 @@
 colorscheme base16-tomorrow-night
-
+:set cursorline
 :set guifont=Hack\ 9
 
 :set guioptions-=T  "remove toolbar
