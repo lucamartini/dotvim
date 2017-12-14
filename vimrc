@@ -37,9 +37,6 @@ set showcmd
 " display completion matches in a status line
 set wildmenu
 
-" go to the previous buffer, then delete the last buffer
-command Bd bp\|bd \#
-
 " Highlight searches
 "  nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 " Press F5 to toggle highlighting on/off, and show current value.
