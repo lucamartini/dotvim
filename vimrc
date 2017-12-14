@@ -83,6 +83,11 @@ set hidden
 packadd! matchit
 set autoindent
 
+" vim-mundo
+nnoremap <F5> :MundoToggle<CR>
+set undofile
+set undodir=~/.vim/undo
+
 " nerdtree
 set encoding=utf8
 let g:NERDTreeFileExtensionHighlightFullName = 1

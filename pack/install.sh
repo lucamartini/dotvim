@@ -82,9 +82,14 @@ function package () {
   wait
 ) &
 
+( 
+  set_group visual_plugins
+  package https://github.com/scrooloose/nerdtree
+  package https://github.com/dsummersl/gundo.vim
+) &
+
 (
   set_group style
-  package https://github.com/scrooloose/nerdtree
   package https://github.com/Xuyuanp/nerdtree-git-plugin
   # package https://github.com/ryanoasis/vim-devicons
   package https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
