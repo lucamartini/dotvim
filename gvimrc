@@ -1,4 +1,4 @@
-colorscheme base16-tomorrow-night
+colorscheme base16-default-dark
 :set cursorline
 :set guifont=UbuntuMono\ Nerd\ Font\ Mono\ 11
 
