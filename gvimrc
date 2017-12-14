@@ -1,6 +1,6 @@
 colorscheme base16-tomorrow-night
 :set cursorline
-:set guifont=Hack\ 9
+:set guifont=UbuntuMono\ Nerd\ Font\ Mono\ 11
 
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
