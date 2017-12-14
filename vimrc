@@ -89,7 +89,7 @@ let NERDTreeShowHidden = 1
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " go to the previous buffer, then delete the last buffer
-nnoremap c :bp\|bd #<CR>
+command Bd bp\|bd \#
 
 " signature + gitgutter
 let g:SignatureMarkTextHLDynamic = 1
