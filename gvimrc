@@ -1,6 +1,6 @@
 colorscheme base16-default-dark
 :set cursorline
-:set guifont=UbuntuMono\ Nerd\ Font\ Mono\ 11
+:set guifont=UbuntuMono\ Nerd\ Font\ Mono\ 11, Ubuntu\ Mono\ 11
 
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
