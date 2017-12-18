@@ -1,11 +1,11 @@
 colorscheme base16-default-dark
 :set cursorline
 
-if system("ls /etc/arch-release") == 2
-	:set guifont=Tlwg\ Typo\ Medium\ 11
-else
+:if !empty(glob("/etc/arch-release"))
 	:set guifont=MesloLGS\ Nerd\ Font\ Mono\ 10
-endif
+else
+	:set guifont=Tlwg\ Typo\ Medium\ 11
+:endif
 
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
