@@ -1,7 +1,7 @@
 colorscheme base16-default-dark
 :set cursorline
 
-if system("ls /etc/arch-release" == 2)
+if system("ls /etc/arch-release") == 2
 	:set guifont=Tlwg\ Typo\ Medium\ 11
 else
 	:set guifont=MesloLGS\ Nerd\ Font\ Mono\ 10
