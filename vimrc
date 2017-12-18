@@ -6,6 +6,7 @@ set nocompatible
 filetype plugin indent on
 
 language en_US.utf8
+set encoding=utf8
 
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
