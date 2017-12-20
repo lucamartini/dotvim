@@ -19,6 +19,9 @@ syntax on
 
 set history=200
 
+" no intro
+set shortmess+=I
+
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that
                     " Vim will interpret it to be having
@@ -37,6 +40,7 @@ set showcmd
 
 " display completion matches in a status line
 set wildmenu
+set wildmode=longest,list
 
 " Highlight searches
 "  nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
@@ -66,8 +70,7 @@ set laststatus=2
 set ruler
 
 " Use null visual bell 
-set visualbell
-set t_vb=
+set visualbell t_vb=
 
 " Enable use of the mouse for all modes
 set mouse=a
