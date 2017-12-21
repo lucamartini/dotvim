@@ -40,7 +40,7 @@ set showcmd
 
 " display completion matches in a status line
 set wildmenu
-set wildmode=longest,list
+" set wildmode=longest,list
 
 " Highlight searches
 "  nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>

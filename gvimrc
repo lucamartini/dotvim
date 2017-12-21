@@ -2,7 +2,7 @@ colorscheme base16-default-dark
 :set cursorline
 
 :if !empty(glob("/etc/arch-release"))
-	:set guifont=MesloLGS\ Nerd\ Font\ Mono\ 10
+	:set guifont=MesloLGS\ Nerd\ Font\ Mono\ 9
 else
 	:set guifont=Tlwg\ Typo\ Medium\ 11
 :endif
