@@ -66,7 +66,6 @@ function package () {
   package https://github.com/vim-airline/vim-airline-themes
   package https://github.com/kshenoy/vim-signature
   package https://github.com/airblade/vim-gitgutter
-  package https://github.com/lifepillar/vim-solarized8
   package https://github.com/pangloss/vim-javascript
   package https://github.com/haya14busa/incsearch.vim
   package https://github.com/itchyny/vim-cursorword
@@ -95,6 +94,7 @@ function package () {
   package https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
   package https://github.com/weynhamz/vim-plugin-minibufexpl
   package https://github.com/chriskempson/base16-vim
+  package https://github.com/lifepillar/vim-solarized8
   wait
 ) &
 
