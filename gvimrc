@@ -1,8 +1,10 @@
-colorscheme base16-default-dark
+set background=dark
+colorscheme solarized8
+
 :set cursorline
 
 :if !empty(glob("/etc/arch-release"))
-	:set guifont=MesloLGS\ Nerd\ Font\ Mono\ 9
+	:set guifont=UbuntuMono\ Nerd\ Font\ Mono\ 11
 else
 	:set guifont=Tlwg\ Typo\ Medium\ 11
 :endif
