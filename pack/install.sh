@@ -85,6 +85,7 @@ function package () {
   set_group visual_plugins
   package https://github.com/scrooloose/nerdtree
   package https://github.com/dsummersl/gundo.vim
+  package https://github.com/mileszs/ack.vim
 ) &
 
 (
