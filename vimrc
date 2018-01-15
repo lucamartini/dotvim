@@ -93,6 +93,8 @@ set ttimeoutlen=0
 set hidden
 
 packadd! matchit
+
+" Copy indent from current line when starting a new line (typing <CR>)
 set autoindent
 
 " vim-mundo
@@ -101,7 +103,6 @@ set undofile
 set undodir=~/.vim/undo
 
 " nerdtree
-set encoding=utf8
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
