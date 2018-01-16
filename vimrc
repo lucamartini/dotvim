@@ -16,20 +16,19 @@ set backspace=indent,eol,start
 syntax on
 
 " line number
-:set number
+set number
 
 set history=200
 
 " no intro
 set shortmess+=I
 
+" tab
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that
                     " Vim will interpret it to be having
                     " a width of 4.
-
 set shiftwidth=4    " Indents will have a width of 4
-
 set softtabstop=4   " Sets the number of columns for a TAB
 set smarttab
 
@@ -98,7 +97,7 @@ packadd! matchit
 set autoindent
 
 " vim-mundo
-nnoremap <F5> :MundoToggle<CR>
+nnoremap <leader>u :MundoToggle<CR>
 set undofile
 set undodir=~/.vim/undo
 
@@ -107,7 +106,7 @@ let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
 let NERDTreeShowHidden = 1
-map <C-n> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " signature + gitgutter
@@ -123,14 +122,11 @@ nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 " closeTag
 " filenames like *.xml, *.html, *.xhtml, ...
 " Then after you press <kbd>&gt;</kbd> in these files, this plugin will try to close the current tag.
-"
 let g:closetag_filenames = '*.html,*.vue'
 " integer value [0|1]
 " This will make the list of non closing tags case sensitive (e.g. `<Link>` will be closed while `<link>` won't.)
-"
 let g:closetag_emptyTags_caseSensitive = 1
 " Add > at current position without closing the current tag, default is ''
-"
 let g:closetag_close_shortcut = '<leader>>'
 
 " CtrlP
