@@ -10,6 +10,7 @@ set encoding=utf8
 
 
 if has("win32")
+	"nothing
 else
 	set termguicolors
 endif
