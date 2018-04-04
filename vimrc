@@ -9,9 +9,7 @@ language en_US.utf8
 set encoding=utf8
 
 
-if has("win32")
-	"nothing
-else
+if has('termguicolors')
 	set termguicolors
 endif
 
@@ -89,10 +87,13 @@ let g:airline#extensions#whitespace#enabled = 0
 " Ale syntax check
 let g:airline#extensions#ale#enabled = 1
 
-" cursor shape
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+if has('termguicolors')
+	" cursor shape
+	let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+	let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+	let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+endif
+
 set ttimeoutlen=0
 
 " Go to the next buffer even if the previous buffer is modified
