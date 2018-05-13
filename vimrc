@@ -13,6 +13,9 @@ if has('termguicolors')
 	set termguicolors
 endif
 
+" set Vim-specific sequences for RGB colors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
